@@ -4,120 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="scss/custom.css">
   <link rel="stylesheet" href="css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <title>Student Discount App using flex box</title>
-  <style>
-  body {
-    background-image: url('img/pattern2.jpg');
-    margin: 0px;
-  }
-
-  .nav-area {
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-  }
-  .nav-area div {
-    width: 15%;
-  }
-  .nav-area .menu,
-  .nav-area .search {
-    display: flex;
-    width: 15%;
-  }
-  .menu {
-    font-size: 45px;
-    color: #273434;
-    padding: 2px 0px 0px 10px;
-  }
-  .search {
-    justify-content: flex-end;
-    font-size: 35px;
-    color: #273434;
-    padding: 5px 10px 0px 0px;
-  }
-
-  .image-area {
-    display: flex;
-    height: 24vh;
-    flex-direction: column;
-  }
-  .main-logo {
-    width: 350px;
-    margin-left: 10px;
-    padding-top: 10px;
-  }
-  h1 {
-    padding-left: 15px;
-    margin-top: 5px;
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-  }
-
-   .product-area {
-    display: flex;
-    flex-direction: column;
-  }
-  .view-product {
-    height: 10vh;
-  }
-  .button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f2608c;
-    margin: 20px 80px 10px 80px;
-    height: 45px;
-  }
-  .button:hover {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #fff;
-    margin: 20px 80px 10px 80px;
-    height: 45px;
-  }
-  a {
-    margin-top: 15px;
-    font-family: 'Poppins', sans-serif;
-    text-transform: uppercase;
-    text-decoration: none;
-    font-size: 16px;
-    color: #fff;
-  }
-  a:hover {
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    text-transform: uppercase;
-    color: #f2608c;
-  }
-
-  .social {
-    display: flex;
-    justify-content: center;
-    height: 50px;
-  }
-  .social div {
-    width: 15%;
-  }
-  .social .facebook,
-  .social .instagram {
-    display: flex;
-    width: 15%;
-  }
-  .facebook {
-    font-size: 45px;
-    color: #273434;
-  }
-  .instagram {
-    font-size: 47px;
-    color: #273434;
-  }
-  </style>
 </head>
 <body>
-  <body>
+
   <div class="container">
 
     <div class="nav-area">
@@ -128,21 +21,19 @@
   <div class="image-area">
     <div class="logo">
       <img src="img/main-logo.png" class="main-logo" alt=""></div>
-      <!-- <div class="mob-image">
-        <img src="img/yoobee-orange.jpeg" alt=""></div> -->
-    <h1>Student Discounts</h1>
+    <h1>Student ID Discounts</h1>
   </div>
 
   <div class="product-area">
     <div class="product-a">
-      <img src="img/food.jpg" class="main-logo" alt="">
+      <img src="img/food.jpg" class="product" alt="">
     </div>
     <div class="product-b">
-      <img src="img/tech.jpg" class="main-logo" alt="">
+      <img src="img/tech.jpg" class="product" alt="">
     </div>
 
     <div class="product-c">
-      <img src="img/clothing.jpg" class="main-logo" alt="">
+      <img src="img/clothing.jpg" class="product" alt="">
     </div>
     </div>
 
@@ -151,13 +42,24 @@
   </div>
 
   <div class="social">
-    <div class="facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></div>
-    <div class="instagram"><i class="fa fa-instagram" aria-hidden="true"></i></div>
+    <a href="https://www.facebook.com/YoobeeColleges/">
+      <div class="facebook">
+        <i class="fa fa-facebook-official" aria-hidden="true"></i>
+        <h2>facebook.com/ <br> YoobeeColleges</h2>
+      </div>
+    </a>
+
+    <a href="https://www.instagram.com/yoobeecolleges/">
+      <div class="instagram">
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+        <h2>instagram.com/ <br> yoobeecolleges</h2>
+      </div>
+    </a>
   </div>
 
   </div>
 
-</body>
+
 
 </body>
 </html>
